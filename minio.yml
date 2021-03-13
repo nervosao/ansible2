@@ -1,0 +1,7 @@
+---
+- name: Instal o Minio
+  hosts: all
+  remote_user: root
+
+  roles:
+    - minio
