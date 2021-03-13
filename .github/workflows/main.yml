@@ -33,5 +33,5 @@ jobs:
       env:
         DO_API_KEY: ${{ secrets.DO_API_KEY }}
       run: |
-        ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook  --private-key .ssh/private.key -i ansible2/hosts -l minio ansible2/PaaS/minio.yml
+        ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook  --private-key .ssh/private.key -i ansible2/hosts -l minio PaaS/minio.yml
        # ansible-playbook -i wordpress-nginx/hosts -l wordpress-server wordpress-nginx/site.yml
