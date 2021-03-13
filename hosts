@@ -1,5 +1,2 @@
-[wordpress-server]
-144.126.223.82
-
-[minio-server]
+[minio_server]
 144.126.223.82
